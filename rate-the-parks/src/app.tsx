@@ -49,3 +49,4 @@ export default function App() {
     </NavigationContainer>
   );
 }
+import { createClient } from '@supabase/supabase-js';
