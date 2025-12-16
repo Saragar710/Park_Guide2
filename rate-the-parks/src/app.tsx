@@ -1,15 +1,15 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { useEffect, useState } from 'react';
-import { supabase } from './src/lib/supabase';
+import { supabase } from '../src/lib/supabase';
 
-import AuthScreen from './src/screens/AuthScreen';
-import HomeScreen from './src/screens/HomeScreen';
-import SearchScreen from './src/screens/SearchScreen';
-import PlaceScreen from './src/screens/PlaceScreen';
-import AddPlaceScreen from './src/screens/AddPlaceScreen';
-import CreateRatingScreen from './src/screens/CreateRatingScreen';
-import ProfileScreen from './src/screens/ProfileScreen';
+import AuthScreen from '../src/screens/AuthScreen';
+import HomeScreen from '../src/screens/HomeScreen';
+import SearchScreen from '../src/screens/SearchScreen';
+import PlaceScreen from '../src/screens/PlaceScreen';
+import AddPlaceScreen from '../src/screens/AddPlaceScreen';
+import CreateRatingScreen from '../src/screens/CreateRatingScreen';
+import ProfileScreen from '../src/screens/ProfileScreen';
 
 const Stack = createNativeStackNavigator();
 
